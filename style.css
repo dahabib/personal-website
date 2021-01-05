@@ -1,4 +1,172 @@
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+h1, h2, span{
+    font-family: Bebas Neue;
+}
+p, a{
+    font-family: Roboto, sans-serif;
+}
+
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(236, 236, 136);
+}
+
+.container{
+    margin: 0px 10%;
+    padding: 0px;
+}
+
+.nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.head{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.head h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+}
+.head h1 span{
+    color: orangered;
+}
+.head p{
+    font-size: 16px;
+    margin: 20px 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: lightyellow;
+    padding: 10px 40px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    background-image: linear-gradient(salmon, tomato);
+}
+
+.about h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 16px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    text-align: justify;
+}
+
+.halfwidth{
+    width: 40%;
+    padding: 5%;
+    float: left;
+}
+.halfwidth img{
+    width: 100%;
+}
+
+.portfolio{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.portfolio h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.portfolio span{
+    color: peru;
+}
+
+.portfolio h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.onethird{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.onethird p{
+    text-align: justify;
+    line-height: 24px;
+}
+
+.onethird img{
+    width: 100%;
+}
+
+.contact{
+    margin: 40px 0px;
+    padding: 10px;
+    float: left;
+}
+
+.contact h1{
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.contact a{
+    float: right;
+}
+footer{
+    height: 50px;
+    margin: 30px 0px;
+    padding: 20px;
+    float: left;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+footer p{
+    text-align: center;
+    font-size:36px;
+    font-weight: 700;
+}
+footer img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
 }
