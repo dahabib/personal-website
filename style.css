@@ -14,6 +14,7 @@ p, a{
 }
 
 .nav{
+    overflow: hidden;
     margin: 0px 10%;
     padding: 0px;
 }
@@ -94,14 +95,6 @@ p, a{
     padding: 0px;
 }
 
-.dwd-image{
-    height: 30px;
-    width: 30px;
-}
-.dwd-image image{
-    height: 100%;
-    width: 100%;
-}
 .portfolio{
     height: 814px;
     background-color: #F8F9FC;
@@ -176,35 +169,6 @@ p, a{
     margin: 23px;
     padding: 15px 30px;
 }
-
-.feedback{
-    width: 100%;
-    float: left;
-}
-
-.feedback-header{
-    width: 100%;
-    margin: 0;
-    padding: 5px;
-}
-.feedback-header .photo{
-    width: 35%;
-    margin: 0;
-    padding: 2px;
-}
-.feedback-header .photo img{
-    width: 100%;
-    height: 100%;
-}
-.feedback-header .info{
-    width: 60%;
-    margin: 0;
-    padding: 5px;
-}
-
-
-
-
 
 footer{
     width: 100%;
