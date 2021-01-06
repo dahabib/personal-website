@@ -1,7 +1,9 @@
-/*
-font-family: 'Bebas Neue', cursive;
-font-family: 'Roboto', sans-serif;
-*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(236, 236, 136);
+}
+
 h1, h2, span{
     font-family: Bebas Neue;
 }
@@ -9,19 +11,8 @@ p, a{
     font-family: Roboto, sans-serif;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(236, 236, 136);
-}
-
-.container{
-    margin: 0px 10%;
-    padding: 0px;
-}
-
 .nav{
-    margin: 0px;
+    margin: 0px 10%;
     padding: 0px;
 }
 
@@ -41,9 +32,8 @@ body{
 }
 
 .head{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+    margin: 0px 10%;
+    padding: 0;
 }
 
 .head h1{
@@ -51,15 +41,11 @@ body{
     padding: 0px;
     font-size: 80px;
 }
+
 .head h1 span{
     color: orangered;
 }
-.head p{
-    font-size: 16px;
-    margin: 20px 0px;
-    padding: 0px;
-    line-height: 24px;
-}
+
 .button{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -71,35 +57,41 @@ body{
     background-image: linear-gradient(salmon, tomato);
 }
 
-.about h1{
+.section-title{
     margin: 0px;
     padding: 0px;
     font-size: 48px;
     font-weight: 700;
 }
-.about p{
+.sectiopn-paragraph{
     font-size: 16px;
     margin: 20px 0px;
     padding: 0px 0px;
     text-align: justify;
 }
 
-.halfwidth{
+.half-width{
     width: 40%;
     padding: 5%;
     float: left;
 }
-.halfwidth img{
+.half-width img{
     width: 100%;
 }
 
-.portfolio{
-    margin: 0px;
+.about{
+    margin: 0 10%;
     padding: 0px;
-    width: 100%;
+}
+.portfolio{
+    height: 814px;
+    background-color: #F8F9FC;
+    margin: 0px;
+    padding: 0% 10%;
     float: left;
 }
 .portfolio h1{
+    padding: 0px 20px;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
@@ -113,26 +105,30 @@ body{
     font-weight: 700;
 }
 
-.onethird{
+.one-third{
     width: 29%;
     margin: 1%;
     padding: 1%;
     float: left;
     border: 1px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #ffffff;
+    box-shadow: 1px 3px 3px 1px rgba(199, 197, 197, 0.5);
 }
 
-.onethird p{
+.one-third p{
     text-align: justify;
     line-height: 24px;
 }
 
-.onethird img{
+.one-third img{
     width: 100%;
 }
 
 .contact{
+    width: 100%;
+    background-image: url("images/shape.png");
+    background-repeat: no-repeat;
     margin: 40px 0px;
     padding: 10px;
     float: left;
@@ -153,13 +149,18 @@ footer{
     float: left;
 }
 
-footer h2{
+footer{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
     text-align: center;
+}
+
+footer h2{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
 }
 footer p{
-    text-align: center;
     font-size:36px;
     font-weight: 700;
 }
