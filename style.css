@@ -141,9 +141,9 @@ p, a{
     width: 100%;
     float: left;
     background-position: center;
-    margin: 40px 0px;
+    margin: 90px 0px;
     padding: 10px;
-    background-image: url("images/shape.png");
+    background-image: url(images/shape.png);
     background-repeat: no-repeat;
     background-size: 70%;
 }
